@@ -1,0 +1,112 @@
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) 
+{ 
+    .navbar-menu.is-active {
+        background-color: #3ea847;
+    }
+
+    .navbar.is-fixed-top {
+        width: 100%;
+    }
+
+    /* h1.title {
+        font-size: 36px;
+    } */
+
+    h2.subtitle {
+        font-size: 16px;
+    }
+
+    .industry {
+        background-color: #ffffff;
+        margin: 0 auto 0 auto;
+        min-height: 355px;
+    } 
+
+    /* .industry__headline { */
+        /* font-weight: 400;
+        margin: -10% 4% 6% 4%;
+        padding: 20px 0 0 0;
+        text-transform: uppercase;
+        text-align: center;
+        color: #4b5454; */
+        /* width:100%; */
+        /* padding-left:1rem; */
+        /* padding-right: 1rem; */
+        /* background-image: url(img/tick.png); */
+        /* background-size: 16px 16px; */
+        /* background-repeat: no-repeat; */
+        /* background-position-y: 0px; */
+        /* background-position-x: 0px; */
+    /* } */
+
+    /* .industry__area__item {
+        height: 86px;
+        width: 86px;
+        max-width: 86px;
+        background-color: #f1f1f1;
+        border-radius: 50%;
+        margin: 0 10px 0 0px;
+    } */
+
+    /* .bg-telecom {
+        display: block;
+        margin: 0px 0px 0px 0px;
+        background-image: url(img/areas/telecom.svg);
+        background-size: 64px 64px;
+        background-repeat: no-repeat;
+        background-position: center;
+        min-height: 100%;
+    }
+
+    .bg-robotics {
+        display: block;
+        background-image: url(img/areas/robotics.svg);
+        background-size: 64px 64px;
+        background-repeat: no-repeat;
+        background-position: center;
+        min-height: 100%;
+    }
+
+    .bg-blockchain {
+        display: block;
+        background-image: url(img/areas/blockchain.svg);
+        background-size: 64px 64px;
+        background-repeat: no-repeat;
+        background-position: center;
+        min-height: 100%;
+    }
+
+    .bg-aerospace {
+        display: block;
+        background-image: url(img/areas/aerospace.svg);
+        background-size: 64px 64px;
+        background-repeat: no-repeat;
+        background-position: center;
+        min-height: 100%;
+    } */
+
+    /* .industry__area__item p {
+        position: absolute;
+        margin-top: 90px;
+        margin-left: -5px;
+    } */
+
+    .has-text-right {
+        text-align: left!important;
+    }
+
+    .section .title-divider.is-right {
+        margin-left: 0px;
+    }
+
+    .button.btn-align {
+        padding: 5px 0px 5px 10px;
+    }
+
+    .light-text {
+        color: #fff !important;
+        margin: 10px 0px 0px 0px;
+    }
+}

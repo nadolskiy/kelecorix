@@ -1,0 +1,146 @@
+
+/* Hero section additional styles */
+
+.diagonal {
+	color: #fff;
+	margin-top: 100px;
+	padding: 50px 0;
+ 	position: relative;
+ 	background: #ffffff;
+}
+
+.diagonal:before {
+ 	position: absolute;
+ 	margin-top: -130px;
+ 	content: '';
+ 	border-style: solid;
+	border-width: 0 0 5rem 100vw;
+	border-color: transparent #ffffff #ffffff transparent;
+}
+
+.diagonal-reverse {
+	color: #fff;
+	margin-top: 100px;
+	padding: 50px 0;
+ 	position: relative;
+ 	background: #ffffff;
+}
+
+.diagonal-reverse:before {
+ 	position: absolute;
+ 	margin-top: -130px;
+ 	content: '';
+ 	border-style: solid;
+	border-width: 0 0 5rem 100vw;
+	border-color: transparent #1d8a37 #1d8a37 transparent;
+}
+
+
+
+/* INDUSTRY AREA SECTION */
+/*------------------------------------------------------------------------*/
+
+ .industry {
+     background-color: #ffffff;
+     margin: 0 auto 0 auto;
+     min-height: 540px;
+ }
+
+ .industry__headline {
+     font-weight: 200;
+     max-width: 430px;
+     margin: 0 auto;
+     padding: 1rem;
+     text-transform: uppercase;
+     text-align: center;
+     color: #4b5454;
+     background-image: url("img/tick.png");
+     background-size: 16px 16px;
+     background-repeat: no-repeat;
+     background-position-y: 0px;
+     background-position-x: 0px;
+ }
+
+ .industry__area {
+     /* margin: 0 0 0 0; */
+     /* display: flex; */
+
+     /* justify-content: center; */
+     /* margin: 2% 0 0 0; */
+    max-width: 100vw;
+    margin-top: 2.5rem;
+ }
+
+ .industry__area__item {
+     height: 160px;
+     width: 160px;
+     max-width: 160px;
+     max-height: 160px;
+     background-color: #f1f1f1;
+     border-radius: 50%;
+     margin-left: 2rem;
+     margin-right: 2rem;
+     /* margin: 0 0 0 64px; */
+ }
+
+ .industry__area__item a {
+     color: #1d8a37;
+     position: relative;
+ }
+
+ .industry__area__item p {
+    position: absolute;
+    margin-top: 155px;
+    /* margin-left: 38px; */
+    left: 0;
+    right: 0;
+ }
+
+ .industry__area__item span {
+     float: right;
+     width: 100%;
+     text-align: center;
+     margin: 165px 0px 0px 0px;
+     color: #18bb3e;
+ }
+
+ .bg-telecom {
+     display: block;
+     margin: 0px 0px 0px 0px;
+     background-image: url("img/areas/telecom.svg");
+     background-size: 100px 100px;
+     background-repeat: no-repeat;
+     background-position: center;
+     min-height: 100%;
+     text-align: center;
+ }
+
+ .bg-aerospace {
+     display: block;
+     background-image: url("img/areas/aerospace.svg");
+     background-size: 100px 100px;
+     background-repeat: no-repeat;
+     background-position: center;
+     min-height: 100%;
+     text-align: center;
+ }
+
+ .bg-robotics {
+     display: block;
+     background-image: url("img/areas/robotics.svg");
+     background-size: 100px 100px;
+     background-repeat: no-repeat;
+     background-position: center;
+     min-height: 100%;
+     text-align: center;
+ }
+
+ .bg-blockchain {
+     display: block;
+     background-image: url("img/areas/blockchain.svg");
+     background-size: 100px 100px;
+     background-repeat: no-repeat;
+     background-position: center;
+     min-height: 100%;
+     text-align: center;
+ }

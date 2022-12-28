@@ -1,0 +1,9 @@
+resolver: lts-11.22
+
+packages:
+- .
+
+extra-deps:
+- haddock-library-1.4.5
+- hoauth2-1.8.4
+- twitter-types-0.7.2.2
